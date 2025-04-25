@@ -7,7 +7,7 @@ use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 use App\Models\Barang;
 
-class form_login extends Component
+class formtransaksi extends Component
 {
     public $barang;
     /**
@@ -15,13 +15,13 @@ class form_login extends Component
      */
     public function __construct()
     {
-    }
+        $this->barang = Barang::paginate(10);    }
 
     /**
      * Get the view / contents that represent the component.
      */
     public function render(): View|Closure|string
     {
-        return view('components.form-login');
+        return view('components.formtransaksi');
     }
 }

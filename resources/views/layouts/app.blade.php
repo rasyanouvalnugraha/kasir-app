@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     {{-- icon kasir --}}
     <link rel="icon" href="{{ asset('asset/logo.png') }}" type="image/x-icon" class="rounded-full">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=National+Park:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
@@ -23,8 +24,7 @@
         <div class="m-4">
             @include('components.navbar-desktop')
         </div>
-        @include('components.alert')
-        @include('components.tablebarang')
+        <x-tablebarang />
     </main>
 
     @if (session('messageCreate'))
@@ -78,7 +78,14 @@
             }
         </script>
     @endif
+    {{-- cdn sweetalert --}}
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    {{-- cdn animate on scroll --}}
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

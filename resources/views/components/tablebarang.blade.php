@@ -1,4 +1,4 @@
-<section class="flex-1 flex flex-col">
+<section class="flex-1 flex flex-col" data-aos="fade-left" data-aos-duration="1500">
     <div class="bg-white shadow-md rounded-lg p-6 mr-4 mt-4 font-mulish-600  flex items-center justify-between">
         <h1 class="text-xl">Daftar Barang {{ config('app.name') }}</h1>
         <a href="/app/create" class="bg-red-600 text-white p-2 rounded-full flex gap-2">

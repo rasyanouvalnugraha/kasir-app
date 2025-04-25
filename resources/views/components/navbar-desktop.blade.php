@@ -1,4 +1,4 @@
-<section class="hidden md:flex flex-col w-64 bg-indigo-600 h-fit rounded-lg p-4">
+<section class="hidden md:flex flex-col w-64 bg-indigo-600 h-fit rounded-lg p-4" data-aos="fade-right" data-aos-duration="1500">
     <div class="flex items-center justify-center">
         <img src="{{ asset('asset/logo1.jpg') }}" alt="Logo" class="h-12 w-12 rounded-full">
         <h1 class="p-6 text-white font-mulish-800 text-2xl text-center">{{ config('app.name') }}</h1>
