@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.font-mulish-100 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.font-mulish-200 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.font-mulish-300 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.font-mulish-400 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-mulish-500 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.font-mulish-600 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.font-mulish-700 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-mulish-800 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.font-mulish-900 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.font-mulish-1000 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+.swal2-popup {
+    font-family: 'Mulish', sans-serif !important;
+    font-weight: 600 !important;
+}
